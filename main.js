@@ -1,12 +1,16 @@
+
+
 function slidetoggle()
 {
-	var slider = document.getElementById("nav-slide");
-	slider.style.heigth = window.innerHeight - 60 + "px";
-	if(slider.style.left == "0px")
+	var toggle = document.getElementById("nav-slide");
+	toggle.style.height = window.innerHeight - 60 + "px";
+
+	if(toggle.style.left == "0px")
 	{
-		slider.style.left = "-250px";
+		toggle.style.left = "-250px";
 	}else
 	{
-		slider.style.left = "0px";
+		toggle.style.left = "0px";
 	}
+
 }

@@ -1,45 +1,31 @@
-*,*:after,*before
-{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-
-	box-sizing: border-box;
-}
-
-#nav-btn
-{
-	position: fixed;
-	border: #Bababa 1px solid;
-	border-radius: 2px;
-	padding: 4px 10px;
-	cursor: pointer;
-	background-color: #fff;
-	transition: all 0.4 linear;
-}
-
-#nav-btn:hover{border: #0061F2 1px solid;}
-#nav-btn > div
-{
-	width: 20px;
-	height: 2px;
-	background-color: #bababa;
-	margin: 4px 0;
-	transition: all 0.4s linear;
-}
-
-#nav-btn:hover div
-{
-	background-color: #0061f2;
-}
-
-#nav-slide
-{
-	position: fixed;
-	left: -250px;
-	top: 60px;
-	width: 250px;
-	background-color: #cdcdcd;
-	height: 100%;
-	transition: ease all 0.4s;
-}
+    #nav-btn {
+      position: fixed;
+      border: #Bababa 1px solid;
+      border-radius: 2px;
+      padding: 5px 10px;
+      cursor: pointer;
+      background-color: #fff;
+      transition: all 0.4s linear;
+    }
+    #nav-btn:hover {
+      border: #0061f2 1px solid;
+    }
+    #nav-btn > div {
+      width: 20px;
+      height: 3px;
+      background: #bababa;
+      margin: 4px 0px;
+      transition: all 0.4s linear;
+    }
+    #nav-btn:hover div {
+      background: #0061f2;
+    }
+    #nav-slide {
+      position: fixed;
+      left: -250px;
+      top: 60px;
+      width: 250px;
+      height: 0px;
+      background: #cdcdcd;
+      transition: left 0.4s linear;
+    }
